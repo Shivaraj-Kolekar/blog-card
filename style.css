@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+.card {
+  width: 384px;
+  height: 522px;
+  font-family: Figtree;
+  cursor: pointer;
+}
+
+#card {
+  filter: drop-shadow(6px 6px 0 black);
+  transition: filter 0.3s ease-in-out;
+}
+#card:hover {
+  filter: drop-shadow(14px 14px 0 black);
+}
+.img {
+  width: 336px;
+  height: 200px;
+  border-radius: 10px !important;
+}
+html {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 100px;
+  background-color: #f4d04e;
+}
+.label {
+  background-color: #f4d04e;
+  height: 29px;
+  width: 82px;
+  font-weight: bold;
+  font-family: Figtree;
+}
+.date {
+  width: 143px;
+  height: 21px;
+}
+.content {
+  color: #7f7f7f;
+}
+.title {
+  width: 336px;
+  height: 36px;
+}
+.author {
+  width: 139px;
+  height: 32px;
+}
+@media screen and (max-width: 412px) {
+  .card {
+    width: 327px;
+    height: 501px;
+  }
+  .img {
+    width: 279px;
+    height: 200px;
+    border-radius: 20px !important;
+  }
+  .svg {
+    border-radius: 20px !important;
+  }
+  .label {
+    background-color: #f4d04e;
+    height: 26px;
+    width: 72px;
+  }
+
+  .title {
+    width: 279px;
+    height: 30px;
+  }
+}
